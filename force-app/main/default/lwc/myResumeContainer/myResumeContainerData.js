@@ -102,7 +102,7 @@ export const EXPERIENCE_DATA = {
             DURATION: "April 2021 - Feb 2024",
             DESCRIPTION: "Leading and Developing Complaint Management System (CMOS).",
             DESCRIPTION_POINTS: [
-                "Successfully developed and delivered Complaint Management System for ANZ Bank in Salesforce, Heavily invloved in R2 release.",
+                "Successfully developed and delivered Complaint Management System for ANZ Bank in Salesforce, Heavily involved in R2 release.",
                 "Lead the transformation of current system to a low-code system with the introduction of OmniStudio",
                 "Lead and Developed services, features such as Apex Email Services, Complaints capture, Framework based integrations within the delivery",
                 //"Lead and Developed Apex Email Services, Customer Complaint capture in LWC, Revamping integration using framework amd processes including but not limited to Collections using Apex, Product management, Auto Indexing.",
@@ -112,11 +112,11 @@ export const EXPERIENCE_DATA = {
                 "Mentored other developers on the team to help them complete their assigned development tasks and also help them understand the big picture.",
                 "Worked with 5-10 member QA team to complete functional and regression testing of various releases.",
                 "Worked with Businness side analysts as well as tech side analysts by providing strong technical and functional expertise to gather end to end business requirements and translates them to Salesforce technical functionalities.",
-                "Cordinating with external system stake holders and developers to solutionize integrations between Salesforce and other applications at enterprise level.",
+                "Coordinating with external system stake holders and developers to solutionize integrations between Salesforce and other applications at enterprise level.",
                 "Being core member of Salesforce COE and helping Solution Architects with the design with Security at its core to be presented at Design Authority",
                 "Implementing Salesforce best practices within the COE and delivery across the platform",
                 "Leveraging CI/CD pipeline for pushing in different orgs and doing deployments.",
-                "As a techical Lead worked on analyzing the list of metadata components, providing peer reviews to not just dedicated application but at overall engineering practice and cordinating deployments"
+                "As a technical Lead worked on analyzing the list of metadata components, providing peer reviews to not just dedicated application but at overall engineering practice and coordinating deployments"
                 //"Automating the delivery process"
                 //"Good understanding of ANZ way of working. Including ANZ design and delivery processes."
             ],
@@ -146,10 +146,10 @@ export const EXPERIENCE_DATA = {
             DESCRIPTION: "Developing Australia's vaccine management and distribution system in Salesforce.",
             DESCRIPTION_POINTS: [
                 "Developed and Delivered successfully vaccine management system using Salesforce Community Cloud.",
-                "Main processes includes onboarding of pharmacies, orderdering of vaccines, waste management and fullfilment via external systems along with reporting.",
+                "Main processes includes onboarding of pharmacies, ordering of vaccines, waste management and fulfillment via external systems along with reporting.",
                 "Used custom theme, onboarding forms, first time logins using unique code mapped via Accounts and Contacts.",
-                "Extensively used Apex triggers for logic building, Lightning components for ordering vaccines, Salesforce Flow for different procceses in Community and Web Services for Integrations.",
-                "Deadline was just four weeks. Pressure from Goverment for delivery during peak Covid time. Worked with CTA and Lead of Accenture, Successfully devlivered vaccines through the system developed and on time which was appreciated by President of DHSS himself."
+                "Extensively used Apex triggers for logic building, Lightning components for ordering vaccines, Salesforce Flow for different processes in Community and Web Services for Integrations.",
+                "Deadline was just four weeks. Pressure from Government for delivery during peak Covid time. Worked with CTA and Lead of Accenture, Successfully delivered vaccines through the system developed and on time which was appreciated by President of DHSS himself."
             ],
             TECHNOLOGIES_USED: {
                 HEADING: 'Technologies used',
@@ -203,7 +203,7 @@ export const EXPERIENCE_DATA = {
                 "L’Oreal Sales Apps , Worked on integration with Twilio messaging.",
                 "Developed Artist Survey in Salesforce(PPD EMS Survey) through connection with ClickTools",
                 "Developed CAR Credit Card, A Payment Gateway Integration with XiPay for USA. Credit Cards for each account are added/displayed/modified/deleted in Salesforce and sent to SAP and Mosaic.",
-                "Worked on Itegration with global Learning Management System (Docebo) to the US.",
+                "Worked on Integration with global Learning Management System (Docebo) to the US.",
                 "Developed and Worked on SHOP Order Application, Implemented tab functionality for getting User Info along with Brand coded, Activity Codes and Order Reason codes, Next tab is to obtain Shipping Address Info and then Products and final adding approvers from list of approvers through custom approval process which is visible in Lightning UI, Implemented Address Validation through REST Integration with AddressDoctor (US), Upon saving order order is sent to SAP for Shipping via batch integration, Implemented Live Order Status functionality to track live orders using WebService(Inbound Integration)"
             ],
             TECHNOLOGIES_USED: {
@@ -280,7 +280,7 @@ export const RECOGNITIONS_DATA = {
         },
         {
             NAME: "ANZ Bank Technology Head",
-            DESCRIPTION: "For the successful delivery of Complaint Management System (CMOS) R2 which icluded lots of components and integration with other systems",
+            DESCRIPTION: "For the successful delivery of Complaint Management System (CMOS) R2 which included lots of components and integration with other systems",
         },
         {
             NAME: "DHSS Head",
@@ -361,7 +361,7 @@ export const TRAININGS_PROVIDED_DATA = {
     HEADING: "Trainings Provided",
     LIST: [{
             NAME: "UI/UX - Accenture",
-            DESCRIPTION: "Continous LWC and UI traning within organisation for all levels",
+            DESCRIPTION: "Continuous LWC and UI training within organisation for all levels",
         },
         {
             NAME: "Jest testing - ANZ Bank",
@@ -396,7 +396,7 @@ export const LANGUAGES_DATA = {
 }
 
 export const RESUABLE_COMPONENTS_DATA = {
-    HEADING: "Rusable Components",
+    HEADING: "Reusable Components",
     LIST: [{
             NAME: "APEX Access Checker",
             DESCRIPTION: "Reusable Utility Class which leverages stripInaccessible",
@@ -537,8 +537,8 @@ export const SKILLS_DATA = {
             //"Mentoring",
             "Project Management",
             //Explain different project management tools such as Service now, JIRA, Confluence
-            "Continous Integrations",
-            "Continous Deployments",
+            "Continuous Integrations",
+            "Continuous Deployments",
             //Explain Harness and doing deployments, AutoRabit / Flosum etc
             "Code Maintenance",
             //Explain Github, BitBucket, GithubActions
