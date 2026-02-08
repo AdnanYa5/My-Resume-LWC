@@ -1,13 +1,12 @@
 import SOCIAL from '@salesforce/resourceUrl/SOCIAL'
-import nikhil from '@salesforce/resourceUrl/adnan';
-export const PROFILE_IMAGE = nikhil
+import adnan from '@salesforce/resourceUrl/adnan';
+export const PROFILE_IMAGE = adnan
 
-export const SOCIAL_LINKS = [
-    {
-        type:'twitter',
-        label:"twitter/mohdadnan58",
-        link:"https://twitter.com/MohdAdnan58",
-        icon:SOCIAL+'/SOCIAL/twitter.svg'
+export const SOCIAL_LINKS = [{
+        type: 'twitter',
+        label: "twitter/mohdadnan58",
+        link: "https://twitter.com/MohdAdnan58",
+        icon: SOCIAL + '/SOCIAL/twitter.svg'
     },
     {
         type: "facebook",
@@ -24,7 +23,7 @@ export const SOCIAL_LINKS = [
     {
         type: "linkedin",
         label: "linkedin/adnanuddin",
-        link: "https://www.linkedin.com/in/adnanuddin-mohammed-7bb711173",
+        link: "https://www.linkedin.com/in/adnanuddin-mohammed",
         icon: SOCIAL + '/SOCIAL/linkedin.svg'
     },
     {
@@ -37,25 +36,93 @@ export const SOCIAL_LINKS = [
 
 export const USER_DETAILS = {
     NAME: 'Mohammed Adnanuddin',
-    ROLE: 'Senior Salesforce Developer',
+    ROLE: 'Salesforce Tech Lead / Associate Manager',
     EMAIL: 'mohd.adnan58@gmail.com',
     PHONE: '+61-401354064 / +91-9819432522'
 }
 
 export const CAREER_SUMMARY = {
     HEADING: "CAREER SUMMARY",
-    DESCRIPTION: "Having 5.10 years of IT experience(Wipro + Appirio) and in that approx. 5 years of Salesforce development and implementation experience along with domain expertise and 6 months of Workday experience. Have good interaction and understanding of the client needs by providing the technical solutions for the requirements. Good attitude to learn new things with honesty, practical approach and good communications skills. Started working in Australia(Melbourne) from March 2019 approx. 1.5 years and before that from India (Pune) location.",
+    DESCRIPTION: "Adaptable IT professional with good knowledge of Enterprise Project Life cycle methodology, Dedicated Technical Lead well-versed in analyzing and mitigating risk and finding cost-effective solutions. Good in product development, release planning, change management and product strategy. Having 9+ years of IT experience(Accenture and Wipro + Appirio) and in that 8+ years of Salesforce development and implementation experience along with domain expertise and 6 months of Workday experience. Have good interaction and understanding of the client needs by providing the technical solutions for the requirements. Good attitude to learn new things with honesty, practical approach and good communications skills. Started working in Australia(Melbourne) from March 2019 approx. 5 years and before that from India (Pune) location.",
     KEYS_POINTS: [
-        "Overall 5 years of Salesforce development experience, During tenure worked for 11 different projects for 4 different clients from Energy, Healthcare, Retail and Consumer Goods domain.",
-        "Currently working with one of the leading Energy client of Australia as a Salesforce Developer through WIPRO Technologies, Melbourne from March 2019 to Till Date.",
+        "Overall 8+ years of Salesforce development experience, During tenure worked for 13 different projects for 6 different clients ranging from Financial Services, Energy, Healthcare, Retail and Consumer Goods domain.",
+        "Currently working with one of the leading Financial Services client of Australia as a Tech Lead through Accenture Australia, Melbourne from Feb 2021 to Till Date.",
+        "Exemplary Team Leader adept at fostering collaboration, while mentoring and developing team member's skills for collective success.",
+        //"Worked with one of the leading Energy client of Australia as a Salesforce Developer through WIPRO Technologies, Melbourne from March 2019 to Feb 2021",
         "Before coming to Australia worked as Technical Lead(Senior Project Engineer) at WIPRO Technologies,  Pune for one of the leading Consumer Goods client in US.",
-        "Good knowledge of Wipro way and Appirio way of Development and Support.",
+        "Good knowledge of Advanced Salesforce Development, Support and different processes involved in development and delivery.",
     ]
 }
 
 export const EXPERIENCE_DATA = {
     HEADING: "Work Experience",
     EXPERIENCES: [{
+            ROLE: "Salesforce Tech Lead",
+            COMPANY_NAME: "ANZ Bank",
+            DURATION: "April 2021 - Till Date",
+            DESCRIPTION: "Leading and Developing Complaint Management System (CMOS).",
+            DESCRIPTION_POINTS: [
+                "Successfully developed and delivered Complaint Management System for ANZ Bank in Salesforce, Heavily invloved in R2 release.",
+                "Lead the transformation of current system to a low-code system with the introduction of OmniStudio",
+                "Lead and Developed services, features such as Apex Email Services, Complaints capture, Framework based integrations within the delivery",
+                //"Lead and Developed Apex Email Services, Customer Complaint capture in LWC, Revamping integration using framework amd processes including but not limited to Collections using Apex, Product management, Auto Indexing.",
+                //"Extensively used LWC and Jest for Complaint capture.",
+                //"Leveraging SFDX development model of ANZ, using Scratch Orgs and Epic Sandboxes for development.",
+                //"Reviewing team members work(PRs), Giving knowledge transfer to new members in team.",
+                "Mentored other developers on the team to help them complete their assigned development tasks and also help them understand the big picture.",
+                "Worked with 5-10 member QA team to complete functional and regression testing of various releases.",
+                "Worked with Businness side analysts as well as tech side analysts by providing strong technical and functional expertise to gather end to end business requirements and translates them to Salesforce technical functionalities.",
+                "Cordinating with external system stake holders and developers to solutionize integrations between Salesforce and other applications at enterprise level.",
+                "Being core member of Salesforce COE and helping Solution Architects with the design with Security at its core to be presented at Design Authority",
+                "Implementing Salesforce best practices within the COE and delivery across the platform",
+                "Leveraging CI/CD pipeline for pushing in different orgs and doing deployments.",
+                "As a techical Lead worked on analyzing the list of metadata components, providing peer reviews to not just dedicated application but at overall engineering practice and cordinating deployments"
+                //"Automating the delivery process"
+                //"Good understanding of ANZ way of working. Including ANZ design and delivery processes."
+            ],
+            TECHNOLOGIES_USED: {
+                HEADING: 'Technologies used',
+                LIST: [
+                    "Salesforce.com",
+                    "Service Cloud",
+                    "Lightning Web Components",
+                    "Jest Testing",
+                    "Apex",
+                    "EmailServices",
+                    "Restful Integration",
+                    "Platform Events",
+                    "Frameworks",
+                    "GitHub",
+                    "GitHub Actions",
+                    "CI/CD",
+                    "SFDX",
+                    "OmniStudio"
+                ]
+            },
+        }, {
+            ROLE: "Senior Salesforce Developer",
+            COMPANY_NAME: "Department of Health and Services (DHSS) Australia",
+            DURATION: "2021 - 2 months",
+            DESCRIPTION: "Developing Australia's vaccine management and distribution system in Salesforce.",
+            DESCRIPTION_POINTS: [
+                "Developed and Delivered successfully vaccine management system using Salesforce Community Cloud.",
+                "Main processes includes onboarding of pharmacies, orderdering of vaccines, waste management and fullfilment via external systems along with reporting.",
+                "Used custom theme, onboarding forms, first time logins using unique code mapped via Accounts and Contacts.",
+                "Extensively used Apex triggers for logic building, Lightning components for ordering vaccines, Salesforce Flow for different procceses in Community and Web Services for Integrations.",
+                "Deadline was just four weeks. Pressure from Goverment for delivery during peak Covid time. Worked with CTA and Lead of Accenture, Successfully devlivered vaccines through the system developed and on time which was appreciated by President of DHSS himself."
+            ],
+            TECHNOLOGIES_USED: {
+                HEADING: 'Technologies used',
+                LIST: [
+                    "Salesforce.com",
+                    "Community Cloud",
+                    "Lightning Components",
+                    "Apex",
+                    "Restful Integration",
+                    "Triggers"
+                ]
+            },
+        }, {
             ROLE: "Senior Salesforce Developer",
             COMPANY_NAME: "Origin Energy",
             DURATION: "2019 - Present",
@@ -164,10 +231,35 @@ export const EDUCATION_DATA = {
     ]
 }
 
+export const RECOGNITIONS_DATA = {
+    ICON: SOCIAL + '/SOCIAL/awards.svg',
+    HEADING: "RECOGNITIONS",
+    LIST: [{
+            NAME: "ANZ Bank Salesforce Head",
+            DESCRIPTION: "Impressed by the correctness and completeness of the Complaint Management components which included LWC, Jests, Integration Mocks, Framework based development, Catering positive and negative scenarios, etc. ",
+        },
+        {
+            NAME: "ANZ Bank Technology Head",
+            DESCRIPTION: "For the successful delivery of Complaint Management System (CMOS) R2 which icluded lots of components and integration with other systems",
+        },
+        {
+            NAME: "DHSS Head",
+            DESCRIPTION: "Quick delivery of the project in 3 weeks due to high demand from Government. Australia's first Covid Vaccine Ordering System",
+        },
+        {
+            NAME: "Others",
+            DESCRIPTION: "Direct appreciation from Director of Salesforce L’Oreal for CAR Credit Card Project, Client recognitions and appreciations from Salesforce Head, Release Manager and Business Leads from Origin Energy, Direct Appreciation from BP Director",
+        },
+    ]
+}
+
 export const AWARDS_DATA = {
     ICON: SOCIAL + '/SOCIAL/awards.svg',
     HEADING: "AWARDS",
-    LIST: [{
+    LIST: [{   
+            NAME: "The force of the month award",
+            DESCRIPTION: "Awarded in ANZ Bank.",
+        },{
             NAME: "Inspiring performer from L'Oreal",
             DESCRIPTION: "Two times inspiring performer award and certificate from L'Oreal.",
         },
@@ -184,8 +276,8 @@ export const AWARDS_DATA = {
             DESCRIPTION: "Best team award and certificate by hands of L’Oreal VP, awarded to L'Oreal SFDC team.",
         },
         {
-            NAME: "Other Awards",
-            DESCRIPTION: "Direct appreciation from Director of Salesforce L’Oreal for CAR Credit Card Project, Appirio Pat on Back award and certificate, Client recognitions and appreciations from Salesforce Head, Release Manager and Business Leads from Origin Energy, Direct Appreciation from BP Director",
+            NAME: "Appirio Pat on Back",
+            DESCRIPTION: "Appirio Pat on Back award and certificate",
         },
 
     ]
@@ -193,30 +285,51 @@ export const AWARDS_DATA = {
 
 export const CERTIFICATION_DATA = {
     ICON: SOCIAL + '/SOCIAL/certification.svg',
-    HEADING: "CERTIFICATIONS",
+    HEADING: "16x CERTIFICATIONS",
     LIST: [{
-            NAME: "Salesforce Administrator",
+            NAME: "Salesforce Certified System Architect",
         },
         {
-            NAME: "Salesforce JavaScript Dev 1",
+            NAME: "Salesforce Certified Application Architect",
+        },
+    ]
+}
+
+export const TRAININGS_UNDERTAKEN_DATA = {
+    HEADING: "Trainings Undertaken",
+    LIST: [
+        {
+            NAME: "People Lead Series - Accenture",
+            DESCRIPTION: "Four days training on people management in Accenture",
         },
         {
-            NAME: "Salesforce Platform App Builder",
+            NAME: "DX@Scale - Accenture",
+            DESCRIPTION: "Automated package development model and deployment training",
         },
         {
-            NAME: "Salesforce Platform Developer 1",
+            NAME: "Omnistudio - Accenture",
+            DESCRIPTION: "Omnistudio consultant training",
         },
         {
-            NAME: "Salesforce Platform Developer 2",
+            NAME: "Salesforce Engineering - Accenture",
+            DESCRIPTION: "Weekly training session for Salesforce Engineering",
+        },
+    ]
+}
+
+export const TRAININGS_PROVIDED_DATA = {
+    HEADING: "Trainings Provided",
+    LIST: [{
+            NAME: "UI/UX - Accenture",
+            DESCRIPTION: "Continous LWC and UI traning within organisation for all levels",
         },
         {
-            NAME: "Salesforce Sales Cloud Consultant",
+            NAME: "Jest testing - ANZ Bank",
+            DESCRIPTION: "Training team mates over Jest testing",
         },
         {
-            NAME: "Salesforce Service Cloud Consultant",
-        },
-        {
-            NAME: "Salesforce Community Cloud Consultant",
+            NAME: "Salesforce Overall training - L'Oreal",
+            DESCRIPTION: "Training team mates and new joiners over overall core Salesforce Development and Support",
         },
     ]
 }
@@ -242,17 +355,61 @@ export const LANGUAGES_DATA = {
     ]
 }
 
+export const RESUABLE_COMPONENTS_DATA = {
+    HEADING: "Rusable Components",
+    LIST: [{
+            NAME: "APEX Access Checker",
+            DESCRIPTION: "Reusable Utility Class which leverages stripInaccessible",
+            GITHUB_LINK: "https://github.com/AdnanYa5/APEX_Access_Checker",
+        },
+        {
+            NAME: "LWC File Upload",
+            DESCRIPTION: "Reusable custom file upload component",
+            GITHUB_LINK: "https://github.com/AdnanYa5/fileUploadLWC",
+        },
+    ]
+}
+
 export const SKILLS_DATA = {
     HEADING: "SKILLS & TOOLS",
     SKILLS: [{
+            HEADING: "ARCHITECTURE / DESIGN / SOLUTIONING",
+            SKILLS_LIST: [{
+                    NAME: "Component Level Design (CLD)",
+                    LEVEL: "55"
+                },
+                {
+                    NAME: "Security",
+                    LEVEL: "65"
+                },
+                {
+                    NAME: "SFDX",
+                    LEVEL: "70",
+                    NOTES: "(SO, Branching Strategy, Sandbox management, Deployment, Setup, CI/CD etc.)"
+                },
+                {
+                    NAME: "Frameworks",
+                    LEVEL: "65"
+                },
+                {
+                    NAME: "Integrations",
+                    LEVEL: "70"
+                },
+            ],
+        },
+        {
             HEADING: "FRONTEND",
             SKILLS_LIST: [{
                     NAME: "Aura Components",
-                    LEVEL: "90"
+                    LEVEL: "70"
                 },
                 {
                     NAME: "Web Components",
-                    LEVEL: "50"
+                    LEVEL: "80"
+                },
+                {
+                    NAME: "JEST Testing",
+                    LEVEL: "70"
                 },
                 {
                     NAME: "JavaScript(ES5/ES6/ES7/ES8)",
@@ -287,17 +444,24 @@ export const SKILLS_DATA = {
                     LEVEL: "75"
                 },
                 {
-                    NAME: "Email Functionality / Custom Approval processes",
+                    NAME: "Email Services / Custom Approval processes",
                     LEVEL: "75"
-                }
+                },
+                {
+                    NAME: "Object Oriented Programming",
+                    LEVEL: "60"
+                },
             ],
         },
         {
             HEADING: "CRM/CMS",
-            SKILLS_LIST: [
-                {
+            SKILLS_LIST: [{
                     NAME: "Salesforce Custom App Cloud",
                     LEVEL: "80"
+                },
+                {
+                    NAME: "Omnistudio",
+                    LEVEL: "70"
                 },
                 {
                     NAME: "Salesforce Sales Cloud",
@@ -309,7 +473,7 @@ export const SKILLS_DATA = {
                 },
                 {
                     NAME: "Salesforce Service Cloud",
-                    LEVEL: "60"
+                    LEVEL: "75"
                 },
                 {
                     NAME: "Workday",
@@ -321,27 +485,42 @@ export const SKILLS_DATA = {
     OTHERS_SKILLS: {
         HEADING: 'OTHERS',
         SKILLS_LIST: [
-            "BitBucket",
-            "AutoRabit",
-            "Service Now",
-            "Remedy",
-            "Code Review / Peer Review",
+            "People Management",
+            //"Mentoring",
+            "Project Management",
+            //Explain different project management tools such as Service now, JIRA, Confluence
+            "Continous Integrations",
+            "Continous Deployments",
+            //Explain Harness and doing deployments, AutoRabit / Flosum etc
+            "Code Maintenance",
+            //Explain Github, BitBucket, GithubActions
+            "Error Logging",
+            //Explain framework and Splunk
+            //"Github",
+            "UI Developer",
+            //Explain Mobile development, W3CAG Accessibility, JS, CSS, Bootstrap 
+            //"BitBucket",
+            //"Doing Deployments",
+            //"Service Now",
+            //"Remedy",
+            //"Code Review / Peer Review",
             "SFDX / CI/CD",
-            "JIRA",
+            //"JIRA",
             "Debugging of complex issues",
-            "Unit Testing",
-            "Flosum",
-            "Confluence",
-            "BootStrap",
+            //"Unit Testing",
+            //"AutoRabit / Flosum",
+            //"Confluence",
+            //"BootStrap",
             "Mentoring team",
             "Providing Estimation",
-            "Developing Resuable Components",
-            "Following Coding Best Practices"
+            //"Developing Resuable Components",
+            //"Following Coding Best Practices",
+            
         ]
     }
 }
 
 export const INTERESTS_DATA = {
     HEADING: "Interests",
-    LIST: ["Gaming", "Instrumental Music", "Cricket"]
+    LIST: ["Gaming", "Instrumental Music", "Cricket", "Motorcycle Riding"]
 }
