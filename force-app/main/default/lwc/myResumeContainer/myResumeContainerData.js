@@ -2,7 +2,14 @@ import SOCIAL from '@salesforce/resourceUrl/SOCIAL'
 import adnan from '@salesforce/resourceUrl/adnan';
 export const PROFILE_IMAGE = adnan
 
-export const SOCIAL_LINKS = [{
+export const SOCIAL_LINKS = [
+    {
+        type: "linkedin",
+        label: "linkedin/adnanuddin",
+        link: "https://www.linkedin.com/in/adnanuddin-mohammed",
+        icon: SOCIAL + '/SOCIAL/linkedin.svg'
+    },
+    /*{
         type: 'twitter',
         label: "twitter/mohdadnan58",
         link: "https://twitter.com/MohdAdnan58",
@@ -13,18 +20,12 @@ export const SOCIAL_LINKS = [{
         label: "facebook/adnanmohd",
         link: "https://www.facebook.com/profile.php?id=100006855346307",
         icon: SOCIAL + '/SOCIAL/facebook.svg'
-    },
+    },*/
     {
         type: "github",
         label: "github/adnanya5",
         link: "https://github.com/AdnanYa5",
         icon: SOCIAL + '/SOCIAL/github.svg'
-    },
-    {
-        type: "linkedin",
-        label: "linkedin/adnanuddin",
-        link: "https://www.linkedin.com/in/adnanuddin-mohammed",
-        icon: SOCIAL + '/SOCIAL/linkedin.svg'
     },
     {
         type: "trailhead",
@@ -36,30 +37,69 @@ export const SOCIAL_LINKS = [{
 
 export const USER_DETAILS = {
     NAME: 'Mohammed Adnanuddin',
-    ROLE: 'Salesforce Tech Lead / Associate Manager',
+    ROLE: 'Salesforce Tech Lead / Lead Salesforce Developer',
     EMAIL: 'mohd.adnan58@gmail.com',
-    PHONE: '+61-401354064 / +91-9819432522'
+    //PHONE: '+61-401354064 / +91-9819432522'
+    //Keeping only one number for privacy
+    PHONE: '+61-401354064'
 }
 
 export const CAREER_SUMMARY = {
     HEADING: "CAREER SUMMARY",
-    DESCRIPTION: "Adaptable IT professional with good knowledge of Enterprise Project Life cycle methodology, Dedicated Technical Lead well-versed in analyzing and mitigating risk and finding cost-effective solutions. Good in product development, release planning, change management and product strategy. Having 9+ years of IT experience(Accenture and Wipro + Appirio) and in that 8+ years of Salesforce development and implementation experience along with domain expertise and 6 months of Workday experience. Have good interaction and understanding of the client needs by providing the technical solutions for the requirements. Good attitude to learn new things with honesty, practical approach and good communications skills. Started working in Australia(Melbourne) from March 2019 approx. 5 years and before that from India (Pune) location.",
+    DESCRIPTION: "Adaptable IT professional with good knowledge of Enterprise Project Life cycle methodology, Dedicated Technical Lead well-versed in analyzing and mitigating risk and finding quality-focussed secure solutions. Having 11+ years of IT experience and in that 10+ years of Salesforce development and implementation experience along with domain expertise. Have good interaction and understanding of the client needs by providing the technical solutions for the requirements. Good attitude to learn new things with honesty, practical approach and good communications skills. Started working in Australia(Melbourne) from March 2019 approx. 7 years and before that from India (Pune) location.",
     KEYS_POINTS: [
-        "Overall 8+ years of Salesforce development experience, During tenure worked for 13 different projects for 6 different clients ranging from Financial Services, Energy, Healthcare, Retail and Consumer Goods domain.",
-        "Currently working with one of the leading Financial Services client of Australia as a Tech Lead through Accenture Australia, Melbourne from Feb 2021 to Till Date.",
+        "Overall 10+ years of Salesforce development experience, During tenure worked for 15 different projects for 7 different clients ranging from Motoring Services, Financial Services, Energy, Healthcare, Retail and Consumer Goods domain.",
+        "Currently working with a leading Automotive service provider of Australia as a Lead Salesforce Developer from Feb 2023 to Till Date.",
         "Exemplary Team Leader adept at fostering collaboration, while mentoring and developing team member's skills for collective success.",
+        //"Currently working with one of the leading Financial Services client of Australia as a Tech Lead through Accenture Australia, Melbourne from Feb 2021 to Till Date.",
+        "Worked with one of the leading Financial Services client of Australia as a Tech Lead through Accenture Australia, Melbourne from April 2021 to Feb 2023.",
         //"Worked with one of the leading Energy client of Australia as a Salesforce Developer through WIPRO Technologies, Melbourne from March 2019 to Feb 2021",
         "Before coming to Australia worked as Technical Lead(Senior Project Engineer) at WIPRO Technologies,  Pune for one of the leading Consumer Goods client in US.",
         "Good knowledge of Advanced Salesforce Development, Support and different processes involved in development and delivery.",
     ]
 }
 
-export const EXPERIENCE_DATA = {
+export const EXPERIENCE_DATA = {    
     HEADING: "Work Experience",
     EXPERIENCES: [{
+            ROLE: "Lead Salesforce Developer",
+            COMPANY_NAME: "Australian Motoring Services",
+            DURATION: "Feb 2024 - Till Date",
+            DESCRIPTION: "Leading, developing and maintaining Salesforce applications for Australian Motoring Services.",
+            DESCRIPTION_POINTS: [
+                "Leading the delivery of Call Center Case management system in Salesforce for AMS.",
+                "Involved in MB project, right from the project planning phase till delivery and hypercare.",
+                "Implemented and Streamlined Digital Dispatch framework within Salesforce.",
+                "Solutionized, Lead and Delivered Geolocation capture via SMS for Call Center Agents for Roadside Assistance within Salesforce.",
+                "Solutionized, Lead and Delivered Customer Care Product for AMS leveraging Knowledge Management.",
+                "Involved in org maintainence.",
+                "Maintaining Bitbucket pipelines, certificates, connected apps, SF pacakages, Genesys and MessageMedia configuration.",
+                "Leveraging best practices and standardization including quality and security throughout the delivery.",
+                "Being a Salesforce Technical Lead to review PR's, Production deployment, Maintaining documents, Training, Engaging with Business.",
+                "Helping and providing guidance to team members."
+            ],
+            TECHNOLOGIES_USED: {
+                HEADING: 'Technologies used',
+                LIST: [
+                    "Salesforce.com",
+                    "Service Cloud",
+                    "Lightning Web Components",
+                    "Apex",
+                    "Restful Integration",
+                    "Platform Events",
+                    "Frameworks",
+                    "Bitbucket",
+                    "YML pipelines",
+                    "CI/CD",
+                    "SFDX",
+                    "Genesys",
+                    "MessageMedia"
+                ]
+            },
+        },{
             ROLE: "Salesforce Tech Lead",
             COMPANY_NAME: "ANZ Bank",
-            DURATION: "April 2021 - Till Date",
+            DURATION: "April 2021 - Feb 2024",
             DESCRIPTION: "Leading and Developing Complaint Management System (CMOS).",
             DESCRIPTION_POINTS: [
                 "Successfully developed and delivered Complaint Management System for ANZ Bank in Salesforce, Heavily invloved in R2 release.",
@@ -376,25 +416,29 @@ export const SKILLS_DATA = {
             HEADING: "ARCHITECTURE / DESIGN / SOLUTIONING",
             SKILLS_LIST: [{
                     NAME: "Component Level Design (CLD)",
-                    LEVEL: "55"
+                    LEVEL: "70"
                 },
                 {
                     NAME: "Security",
-                    LEVEL: "65"
+                    LEVEL: "70"
                 },
                 {
                     NAME: "SFDX",
-                    LEVEL: "70",
+                    LEVEL: "75",
                     NOTES: "(SO, Branching Strategy, Sandbox management, Deployment, Setup, CI/CD etc.)"
                 },
                 {
                     NAME: "Frameworks",
-                    LEVEL: "65"
+                    LEVEL: "70"
                 },
                 {
                     NAME: "Integrations",
                     LEVEL: "70"
                 },
+                {
+                    NAME: "AI adoption",
+                    LEVEL: "25"
+                }
             ],
         },
         {
@@ -412,7 +456,7 @@ export const SKILLS_DATA = {
                     LEVEL: "70"
                 },
                 {
-                    NAME: "JavaScript(ES5/ES6/ES7/ES8)",
+                    NAME: "JavaScript",
                     LEVEL: "75"
                 },
                 {
@@ -473,12 +517,16 @@ export const SKILLS_DATA = {
                 },
                 {
                     NAME: "Salesforce Service Cloud",
-                    LEVEL: "75"
+                    LEVEL: "80"
                 },
                 {
-                    NAME: "Workday",
-                    LEVEL: "30"
+                    NAME: "Salesforce Data Cloud",
+                    LEVEL: "20"
                 },
+                {
+                    NAME: "Agentforce",
+                    LEVEL: "20"
+                }
             ],
         }
     ],
