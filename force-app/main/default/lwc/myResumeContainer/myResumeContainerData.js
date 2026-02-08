@@ -37,7 +37,7 @@ export const SOCIAL_LINKS = [
 
 export const USER_DETAILS = {
     NAME: 'Mohammed Adnanuddin',
-    ROLE: 'Salesforce Tech Lead / Lead Salesforce Developer',
+    ROLE: 'Salesforce Technical Lead / Lead Salesforce Developer',
     EMAIL: 'mohd.adnan58@gmail.com',
     //PHONE: '+61-401354064 / +91-9819432522'
     //Keeping only one number for privacy
