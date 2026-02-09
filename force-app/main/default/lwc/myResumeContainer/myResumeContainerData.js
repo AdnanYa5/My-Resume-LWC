@@ -73,7 +73,7 @@ export const EXPERIENCE_DATA = {
                 "Solutionized, Lead and Delivered Geolocation capture via SMS for Call Center Agents for Roadside Assistance within Salesforce.",
                 "Solutionized, Lead and Delivered Customer Care Product for AMS leveraging Knowledge Management.",
                 "Involved in org maintainence.",
-                "Maintaining Bitbucket pipelines, certificates, connected apps, SF pacakages, Genesys and MessageMedia configuration.",
+                "Maintaining Bitbucket pipelines, certificates, connected apps, SF packages, Genesys and MessageMedia configuration.",
                 "Leveraging best practices and standardization including quality and security throughout the delivery.",
                 "Being a Salesforce Technical Lead to review PR's, Production deployment, Maintaining documents, Training, Engaging with Business.",
                 "Helping and providing guidance to team members."
